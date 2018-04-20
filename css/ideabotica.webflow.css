@@ -1,0 +1,217 @@
+body {
+  background-color: #000;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #404040;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.section-full {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20%;
+  padding-bottom: 50%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #404040;
+  background-image: url('../images/Simbols.svg'), -webkit-linear-gradient(45deg, #3517ed, #9b5dfc 50%, #54fbfb);
+  background-image: url('../images/Simbols.svg'), linear-gradient(45deg, #3517ed, #9b5dfc 50%, #54fbfb);
+  background-position: 50% 50px, 0px 0px;
+  background-size: 70%, auto;
+  background-repeat: no-repeat, repeat;
+  text-align: center;
+}
+
+.section-full.gradient {
+  background-image: -webkit-linear-gradient(45deg, #3517ed, #9b5dfc 50%, #54fbfb);
+  background-image: linear-gradient(45deg, #3517ed, #9b5dfc 50%, #54fbfb);
+}
+
+.p {
+  margin-bottom: 5px;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #7e768b;
+  font-size: 16px;
+  text-align: left;
+}
+
+.p.white {
+  color: hsla(0, 0%, 100%, .89);
+}
+
+.p.destacado {
+  padding: 40px 170px 30px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.p.destacado._2 {
+  font-size: 16px;
+}
+
+.icon-mail {
+  opacity: 0.54;
+}
+
+.icon-fb {
+  max-width: 100%;
+  padding-top: 45px;
+}
+
+.link {
+  width: 40px;
+  height: 40px;
+  max-height: 100px;
+  max-width: 100%;
+  margin-top: 42px;
+  color: #9b5dfc;
+}
+
+.div-block {
+  height: 40px;
+  padding-right: 154px;
+  padding-left: 154px;
+}
+
+.logo {
+  max-width: 80%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.wrapper30px {
+  height: 30px;
+}
+
+.section-gradient {
+  display: block;
+  height: 700px;
+  padding-top: 15%;
+  background-image: -webkit-linear-gradient(45deg, #3517ed, #9a8bf6 50%, #54fbfb);
+  background-image: linear-gradient(45deg, #3517ed, #9a8bf6 50%, #54fbfb);
+  background-position: 0px 0px;
+  background-size: auto;
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  display: block;
+  text-align: center;
+}
+
+.section {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: transparent;
+}
+
+.body {
+  background-color: #e8e4eb;
+}
+
+.simbols-pattern {
+  position: relative;
+  top: -648px;
+  height: 700px;
+  background-image: url('../images/Simbols_pattern.svg');
+  background-position: 50% 50%;
+  background-size: auto 70%;
+  background-repeat: repeat;
+  opacity: 0.4;
+}
+
+@media (max-width: 991px) {
+  .p.destacado {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .div-block {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+  .simbols-pattern {
+    top: -648px;
+    background-size: auto 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-full {
+    padding-top: 0%;
+  }
+  .p.destacado {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .icon-fb {
+    padding-top: 20px;
+  }
+  .div-block {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .logo {
+    max-width: 45%;
+    margin-top: 0px;
+  }
+  .section-gradient {
+    height: 325px;
+  }
+  .simbols-pattern {
+    top: -381px;
+    height: 150%;
+    background-size: auto 80%;
+  }
+}
+
+@media (max-width: 479px) {
+  .section-full {
+    padding-top: 10%;
+    background-image: -webkit-linear-gradient(270deg, #000, #000);
+    background-image: linear-gradient(180deg, #000, #000);
+  }
+  .p {
+    padding-right: 14px;
+    padding-left: 14px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .p.destacado {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .icon-fb {
+    padding-top: 90px;
+  }
+  .div-block {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .logo {
+    max-width: 70%;
+    margin-top: 80px;
+  }
+  .section-gradient {
+    height: 500px;
+  }
+  .simbols-pattern {
+    top: -612px;
+    height: 180%;
+    background-size: auto 45%;
+  }
+}
+
